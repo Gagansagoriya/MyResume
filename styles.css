@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(48, 39, 85);
+    text-decoration: none;
+}
+section{
+    margin-bottom: 20px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fdfdf6;
+    font-family: 'Poppins', sans-serif;
+     display: flex; 
+    justify-content: center; 
+      align-items: center;  
+
+}
+.resume{
+    margin-top: -50px;
+    width: 100%;
+    /* display: inline; */
+    /* border: 1px solid beige; */
+}
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.line-thorw{
+margin-top: -5px;
+margin-bottom: 5px;
+border: 1px solid black; 
+}
+
+/* header-section */
+
+header{
+    /* width: 85%; */
+    height: auto;
+    /* border: 1px solid #a37979; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    overflow: hidden; 
+    text-align: center;   
+    align-items: center; 
+    justify-content: center ;
+    /* position: absolute; */
+    margin-bottom: 10px;
+}
+header .links span{
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+header section i{
+    cursor: pointer;
+    margin-right: 5px;
+    color: black;
+}
+header h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* .education-section */
+.education-section .edu-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;   
+}
+
+/* space section */
+.skill-section .skills{    
+    padding-left: 50px;
+}
+
+.project-section  .pro-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.project-section .pro-1{
+    margin-left: -100px;
+}
+/* .project-section  .pro-class span{
+   margin-right: 460px;
+   border: 1px solid;
+} */
+.project-section .projects ul{
+    padding-left: 50px;
+}
+.hover :hover{
+    cursor: pointer;
+}
